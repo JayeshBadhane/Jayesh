@@ -5,7 +5,7 @@ int main()
 {
     int rollno;
     char name[30];
-    int total=0;
+    float avr,per, total=0;
     int marks,n;
     cout<<"Enter the Subject Count for Calculating Persentage ";
     cin>>n;
@@ -16,7 +16,7 @@ int main()
         cin>>marks;
         total+=marks;
     }
-    float avr,per;
+    
     avr= (total/n);
     per=(total*100)/(n*100);
     cout<<"Your Total Marks is: "<<total<<endl;
